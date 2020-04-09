@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--HEAD-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK TO BOOTSTRAP STYLESHEET-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--PAGE TITLE-->
     <title>Bootstrap Index-Page</title>
 </head>
 
+
+<!--BODY-->
+
 <body>
 
-    <!--NAVBAR-->
+
+    <!--NAVBAR BOTTOM SHADOW-->
     <div class="shadow mb-5 bg-white rounded">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <!--NAVBAR WITH EXPAND-SM TO POSITION HORIZONTAL-->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-        <!--NAVBAR LOGO-->
-        <a class="navbar-brand" href="#" style="font-family: 'Courier New', Courier, monospace; font-size: 24px;">Vanessa Bautista</a>
-        <!--NAVBAR MENU ITEMS-->
-        <div class="navbarNav" id="navbarNav">
-            <ul class="navbar-nav list-inline">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+            <!--NAVBAR LOGO ADJUSTED FONT-FAMILY AND FONT-SIZE-->
+            <a class="navbar-brand" href="#"
+                style="font-family: 'Courier New', Courier, monospace; font-size: 24px;">Vanessa Bautista</a>
+
+            <!--NAVBAR AND UNORDERED LIST WITH NAVIGATION-MENU ITEMS-->
+            <div class="navbarNav" id="navbarNav">
+                <!--NAVBAR LIST-INLINE TO MAKE MENU ITEMS HORIZONTAL ON MEDIUM AND LARGE SCREENS. EACH LI HAS A LINK TO ANOTHER WEBSITE PAGE-->
+                <ul class="navbar-nav list-inline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--END OF NAVBAR-->
+        </nav>
+        <!--END NAVBAR BOTTOM SHADOW-->
+    </div>
 
 
-    <!--CONTAINER WITH CARD-->
+    <!--CONTAINER WITH MAIN WEBPAGE CONTENT-->
     <div class="container mt-3">
+        <!--ROW WITH 2 COLUMNS, ONE FOR THE 'ABOUT ME' CARD, ONE COLUMN THAT CREATES VISUAL SPACE-->
         <div class="row">
+
+            <!-- COLUMN WITH 'ABOUT ME' CARD-->
             <div class="col-sm-12 col-md-8 col-lg-8">
 
-                <!--CARD TO HOLD CONTENT-->
+                <!--CARD TO HOLD ABOUT-ME CONTENT WITH BORDER AND SIZE STYLING-->
                 <div class="card border-dark mb-3" style="max-width: 100%;">
 
-                    <!--CARD HEADER-->
+                    <!--CARD HEADER WITH HEADER FONT-FAMILY STYLING-->
                     <div class="card-header">
                         <h2 style="font-family: 'Courier New', Courier, monospace">About Me</h2>
                     </div>
 
-                    <!--CARD SECTION WITH PHOTO AND TEXT-->
+                    <!--CARD CONTAINER CREATES BOTTOM SECTION WITH PHOTO AND TEXT-->
                     <div class="container mt-2">
+                        <!--ROW WITH TWO COLUMNS, ONE FOR PHOTO, ONE FOR TEXT-->
                         <div class="row">
+
                             <!--COLUMN WITH PHOTO-->
                             <div class="col-sm-12 col-md-6 col-lg-4">
+                                <!--PHOTO LINK WITH SIZE & RESPONSIVNESS STYLING-->
                                 <img src="https://www.foodiesfeed.com/wp-content/uploads/2019/05/colorful-fresh-berries-on-a-white-background-1.jpg"
                                     alt="berries" class="img-responsive" style="width:100%">
                             </div>
+
                             <!--COLUMN WITH TEXT-->
                             <div class="col-sm-12 col-md-6 col-lg-8 mt-2">
                                 <p>I like to cook. I enjoy good food and fresh ingredients. I cook for my family and
@@ -66,52 +89,55 @@
                                     the bulk of the card.
                                 </p>
                             </div>
+
+                            <!--END OF ROW-->
                         </div>
-                        <!--END OF ROW WITH CONTENT-->
+                        <!--END OF CONTAINER INSIDE CARD-->
                     </div>
-                    <!--END OF CONTAINER INSIDE CARD-->
+                    <!--END OF CARD-->
                 </div>
-                <!--END OF CARD-->
+                <!--END OF COLUMN HOLDING CARD-->
             </div>
-            <!--END OF COLUMN HOLDING CARD-->
+
+            <!--2nd COLUMN SPACEHOLDER RIGHT OF CARD-->
             <div class="col-sm-12 col-md-4 col-lg-4"></div>
-            <!--2nd SPACEHOLDER COLUMN NEXT TO CARD-->
+
+            <!--END OF ROW HOLDING CARD & SPACEHOLDER COLUMNS-->
         </div>
-        <!--END OF MAIN CONTENT ROW-->
+
+        <!--END OF MAIN CONTENT CONTAINER-->
     </div>
-    <!--END OF MAIN CONTENT CONTAINER-->
 
 
 
+    <!--BOTTOM SECTION TO CREATE SPACE BELOW THE CARD-->
     <div style="height:200px"></div>
 
-    <!--STICKY FOOTER (how to get the top border thicker?-->
+    <!--STICKY FOOTER WITH STYLING-->
     <nav class="navbar fixed-bottom navbar-light bg-light border-top border-#333333">
+        <!--CONTAINER TO MOVE CENTER TO DISPLAY TEXT CENTER-->
         <div class="container text-center">
-            
-                <div class="col text-center">
-                    <a class="navbar-brand" href="#" style="font-family: 'Courier New', Courier, monospace;">&#169Copyright</a>
-                </div>
+            <!--CENTERED COLUMN TO HOLD COPYRIGHT LINK-->
+            <div class="col text-center">
+                <!--COPYRIGHT LINK WITH TEXT STYLING-->
+                <a class="navbar-brand" href="#"
+                    style="font-family: 'Courier New', Courier, monospace;">&#169Copyright</a>
+            </div>
+        </div>
+        <!--END FOOTER-->
     </nav>
 
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
+    <!-- OPTIONAL JAVASCRIPT -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 
 </body>
 

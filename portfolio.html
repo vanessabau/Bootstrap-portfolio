@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--HEAD-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK TO BOOTSTRAP STYLESHEET-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Bootstrap Portfolio-Page</title>
+
+    <!--PAGE TITLE-->
+    <title>Bootstrap Portfolio Page</title>
 </head>
+
+<!--BODY-->
 
 <body>
 
-    <!--NAVBAR-->
+
+    <!--NAVBAR BOTTOM SHADOW-->
     <div class="shadow mb-5 bg-white rounded">
+        <!--NAVBAR WITH EXPAND-SM TO POSITION HORIZONTAL-->
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-            <!--NAVBAR LOGO-->
+            <!--NAVBAR LOGO ADJUSTED FONT-FAMILY AND FONT-SIZE-->
             <a class="navbar-brand" href="#"
                 style="font-family: 'Courier New', Courier, monospace; font-size: 24px;">Vanessa Bautista</a>
-            <!--NAVBAR MENU ITEMS-->
+
+            <!--NAVBAR AND UNORDERED LIST WITH NAVIGATION-MENU ITEMS-->
             <div class="navbarNav" id="navbarNav">
+                <!--NAVBAR LIST-INLINE TO MAKE MENU ITEMS HORIZONTAL ON MEDIUM AND LARGE SCREENS. EACH LI HAS A LINK TO ANOTHER WEBSITE PAGE-->
                 <ul class="navbar-nav list-inline">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
@@ -32,161 +44,204 @@
                     </li>
                 </ul>
             </div>
+            <!--END OF NAVBAR-->
         </nav>
+        <!--END NAVBAR BOTTOM SHADOW-->
     </div>
 
 
-    <!--CONTAINER WITH CARD-->
+    <!--CONTAINER WITH MAIN WEBPAGE CONTENT-->
     <div class="container mt-3">
+        <!--ROW WITH 2 COLUMNS, ONE FOR THE 'PORTFOLIO' CARD, ONE COLUMN THAT CREATES VISUAL SPACE-->
         <div class="row">
+
+            <!-- COLUMN WITH 'PORTFOLIO' CARD-->
             <div class="col-sm-12 col-md-8 col-lg-8">
 
-                <!--CARD TO HOLD CONTENT-->
+                <!--CARD TO HOLD 'PORTFOLIO' CONTENT WITH BORDER AND SIZE STYLING-->
                 <div class="card border-dark mb-3" style="max-width: 100%;">
 
-                    <!--CARD HEADER-->
+                    <!--CARD HEADER WITH HEADER-FONT-FAMILY STYLING-->
                     <div class="card-header">
                         <h2 style="font-family: 'Courier New', Courier, monospace">Portfolio</h2>
                     </div>
 
-                    <!--CARD SECTION WITH PORTFOLIO CONTENTS-->
+                    <!--CARD CONTAINER CREATES BOTTOM SECTION FOR PORTFOLIO CARDS-->
                     <div class="container mt-2">
+                        <!--ROW WITH TWO COLUMNS FOR PORTFOLIO CARDS-->
                         <div class="row">
 
-                            <!--COLUMN1 WITH CARD-->
+                            <!--COLUMN1 WITH 3 CARDS-->
                             <div class="col-sm-12 col-md-6 col-lg-6">
 
-                                <!--PORTFOLIO CARD-->
+                                <!--PORTFOLIO CARD 1-->
                                 <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
                                     <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
                                         <div class="row">
                                             <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 1</h6>
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 1</h6>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <!--PORTFOLIO CARD-->
+                                <!--PORTFOLIO CARD 2-->
                                 <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
                                     <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
                                         <div class="row">
                                             <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 2</h6>
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 2</h6>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <!--PORTFOLIO CARD-->
+                                <!--PORTFOLIO CARD 3-->
                                 <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
                                     <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
                                         <div class="row">
                                             <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 3</h6>
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 3</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--END OF COLUMN 1 WITH PORTFOLIO CARDS-->
+                            </div>
+
+
+
+                            <!--COLUMN2 WITH 3 CARDS-->
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+
+                                <!--PORTFOLIO CARD 4-->
+                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
+                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 4</h6>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
 
+                                <!--PORTFOLIO CARD 5-->
+                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
+                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 5</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--PORTFOLIO CARD 6-->
+                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
+                                    <!--PORTFOLIO IMAGE-->
+                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
+                                    <!--CARD IMAGE OVERLAY TO DISPLAY TEXT IN FRONT OF PHOTO-->
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+                                        style="padding:0;">
+                                        <!--ROW AND COLUMN TO AID IN FORMATTING PLACEMENT OF TEXT-->
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!--BG COLOR, TEXT ALIGNMENT, BOTTOM MARGIN AND PADDING TO POSITION AND FORMAT TEXT OVERLAY-->
+                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">
+                                                    PORTFOLIO ITEM 6</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
-                        
+                            <!--END COLUMN 2 INSIDE CARD-->
 
-
-                             <!--COLUMN2 WITH CARD-->
-                            <div class="col-sm-12 col-md-6 col-lg-6">
-
-                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
-                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-    
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 4</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!--PORTFOLIO CARD-->
-                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
-                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 5</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--PORTFOLIO CARD-->
-                                <div class="card bg-light m-2 text-white" style="max-width: 200px;">
-                                    <img class="card-img" src="http://placehold.it/150x150" alt="Card image">
-
-                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end" style="padding:0;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h6 class="card-title bg-info text-center mb-3" style="padding: 5px">PORTFOLIO ITEM 6</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div><!--END COLUMN 2 INSIDE CARD-->
-
-
-                        
-
-                        </div><!--END OF ROW INSIDE CARD-->
-                        
-                    </div><!--END OF ROW-->
-                    
-                </div><!--END MAIN CONTENT CARD-->
-            </div> <!--END OF COLUMN HOLDING CARD-->
-
-            <!--2nd SPACEHOLDER COLUMN NEXT TO CARD-->
-            <div class="col-sm-12 col-md-4 col-lg-4"></div>
-                
-        </div><!--END OF MAIN CONTENT ROW HOLDS CARD AND SPACEHOLDER COLUMN-->
-            
-    </div><!--END OF CONTAINER HOLDING MAIN CONTENT-->
-        
-    <div style="height:200px"></div><!--CREATES SPACE AT THE BOTTOM OF THE PAGE -->
-
-        <!--STICKY FOOTER (how to get the top border thicker?-->
-        <nav class="navbar fixed-bottom navbar-light bg-light border-top border-#333333">
-            <div class="container text-center">
-
-                <div class="col text-center">
-                    <a class="navbar-brand" href="#"
-                        style="font-family: 'Courier New', Courier, monospace;">&#169Copyright</a>
+                            <!--END OF ROW-->
+                        </div>
+                        <!--END OF CONTAINER INSIDE CARD-->
+                    </div>
+                    <!--END OF CARD-->
                 </div>
-        </nav>
+                <!--END OF COLUMN HOLDING CARD-->
+            </div>
+
+            <!--2nd COLUMN SPACEHOLDER RIGHT OF CARD-->
+            <div class="col-sm-12 col-md-4 col-lg-4"></div>
+
+            <!--END OF ROW HOLDING CARD & SPACEHOLDER COLUMNS-->
+        </div>
+
+        <!--END OF MAIN CONTENT CONTAINER-->
+    </div>
 
 
 
-    <!-- Optional JavaScript -->
+    <!--BOTTOM SECTION TO CREATE SPACE BELOW THE CARD-->
+    <div style="height:200px"></div>
+
+    <!--STICKY FOOTER WITH STYLING-->
+    <nav class="navbar fixed-bottom navbar-light bg-light border-top border-#333333">
+        <!--CONTAINER TO MOVE CENTER TO DISPLAY TEXT CENTER-->
+        <div class="container text-center">
+            <!--CENTERED COLUMN TO HOLD COPYRIGHT LINK-->
+            <div class="col text-center">
+                <!--COPYRIGHT LINK WITH TEXT STYLING-->
+                <a class="navbar-brand" href="#"
+                    style="font-family: 'Courier New', Courier, monospace;">&#169Copyright</a>
+            </div>
+        </div>
+        <!--END FOOTER-->
+    </nav>
+
+    <!-- OPTIONAL JAVASCRIPT -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 
 </body>
 
